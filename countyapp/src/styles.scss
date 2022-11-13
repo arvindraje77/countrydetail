@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+
+.row {
+    width: 100%;
+    overflow: hidden;
+}
+
+.column{
+    float: left;
+}
+
+.main-template {
+    height: 20px;
+    border: 1cm 4px black;
+    border-style: ridge;
+    padding-left: 1px;
+    padding-bottom: 1em;
+    margin: 0px;
+    background-color: aquamarine;
+}

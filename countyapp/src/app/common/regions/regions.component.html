@@ -1,0 +1,22 @@
+<div class="main-template">
+    <div class="row">
+
+        <div style="width: 30%;float: left;">
+            <label><b> Region</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+           <select [(ngModel)]="region" (change)="changeCountryList()">
+                <option value="">-- Select a Region --</option>
+               <option *ngFor="let regionstr of regionList" [(ngValue)]="regionstr.id">{{regionstr.name}}</option>
+            </select>
+        </div>
+           
+        <div style="width: 30%;float: left;">
+            <label><b>Country </b></label> &nbsp;&nbsp;
+            <select [(ngModel)]="country" (change)="sendCountryName()">
+                <option value="">-- Select a Country --</option>
+                <option *ngFor="let countrystr of countryList" [(ngValue)]="countrystr.name">{{countrystr.name}}</option>
+            </select>
+           
+        </div>
+
+    </div>
+</div>

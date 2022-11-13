@@ -1,0 +1,20 @@
+[   
+    {"regionId":1,
+    "countryList" : [
+        {"id": "1", "name": "India"}, 
+        {"id": "2", "name": "China"},
+        {"id": "3", "name": "Japan"},
+        {"id": "4", "name": "Singpore"}
+      ]
+    },
+
+    {
+    "regionId":2,
+    "countryList"  : [
+        {"id": "1", "name": "UK"}, 
+        {"id": "2", "name": "France"},
+        {"id": "3", "name": "Germany"},
+        {"id": "4", "name": "Itely"}
+      ]
+    }  
+]

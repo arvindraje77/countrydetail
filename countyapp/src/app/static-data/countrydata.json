@@ -1,0 +1,10 @@
+[
+	{ "name": "UK", "capital": "London", "population":"1000000", "currencies":"GBP", "flag":"red cross of Saint George" },
+    { "name": "France", "capital": "France", "population":"2000000" , "currencies": "EUR","flag":"three vertical bands coloured blue, white, and red" },
+    { "name": "Germany", "capital": "Berlin", "population":"3000000" , "currencies": "EUR","flag":"flag Deutschlands" },
+    { "name": "Itely", "capital": "Rome", "population":"4000000" , "currencies": "EUR","flag":"Italian" },
+	{ "name": "India", "capital": "Delhi", "population":"5000000" , "currencies": "INR","flag":"Orange,White and Green" },
+    { "name": "China", "capital": "Beijing", "population":"6000000" , "currencies": "YUAN","flag":"Five-star Red Flag" },
+    { "name": "Singapore", "capital": "Singapore", "population":"7000000" , "currencies": "SGD","flag":"A horizontal bicolour of red and white" },
+    { "name": "Japan", "capital": "Tokyo", "population":"8000000" , "currencies": "YEN","flag":"A rectangular white banner bearing a crimson-red circle at its center" }
+]
